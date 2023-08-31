@@ -53,4 +53,3 @@ func limit_zoom(new_zoom):
 		zoom.y = 0.1
 	if new_zoom.x < 0.1:
 		zoom.x = 0.1
-	print(zoom)
