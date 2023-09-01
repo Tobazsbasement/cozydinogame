@@ -49,10 +49,10 @@ func limit_zoom(new_zoom):
 		zoom.y = 10
 	if new_zoom.x > 10:
 		zoom.x = 10
-	if new_zoom.y < 0.1:
-		zoom.y = 0.1
-	if new_zoom.x < 0.1:
-		zoom.x = 0.1
+	if new_zoom.y < 0.6:
+		zoom.y = 0.6
+	if new_zoom.x < 0.6:
+		zoom.x = 0.6
 		
 		
 func _ready():
